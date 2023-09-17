@@ -31,7 +31,7 @@ function Users() {
           </div>
           <div className="user-info">
             <h2>
-              {user.first_name} {user.last_name}
+            {user.email} {user.first_name} {user.last_name}
             </h2>
           </div>
         </div>

@@ -17,13 +17,23 @@
     place-items: center;
   }
   
+  h2 {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 0.4rem;
+  }
+
+  p {
+    font-size: 5px;
+    color: var(--gray);
+  }
 
   .card {
-    width: 275px;
+    width: 325px;
     border-radius: 8px;
     background-color: #36393f;
     color: #ffffff;
-    padding: 15px;
+    padding: 18px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
   
@@ -43,16 +53,7 @@
       .user-info {
         flex-grow: 1;
   
-        h2 {
-          font-size: 1.1rem;
-          color: var(--name);
-          margin-bottom: 0.4rem;
-        }
-  
-        p {
-          font-size: 0.75rem;
-          color: var(--gray);
-        }
+
       }
       
       .cta {
